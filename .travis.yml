@@ -1,6 +1,6 @@
 language: java
 addons:
   sonarcloud:
-    organization: Nathan2501
+    organization: nathan2501
 script:
   - mvn clean verify sonar:sonar -Pcoverage -Dsonar.projectKey=myorg_myrepo
