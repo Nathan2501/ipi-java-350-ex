@@ -3,4 +3,4 @@ addons:
   sonarcloud:
     organization: nathan2501
 script:
-  - mvn clean verify sonar:sonar -Pcoverage -Dsonar.projectKey=myorg_myrepo
+  - mvn clean verify sonar:sonar -Pcoverage -Dsonar.projectKey=Nathan2501_ipi-java-350-ex
